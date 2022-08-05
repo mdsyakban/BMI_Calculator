@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(234, 234, 250);
+}
+span{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 30px 30px;
+    width: 460px;
+    background: #237cd4;
+    border-radius: 5px;
+}
+.container p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+.container h1{
+    background: #024b94;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 40px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+button{
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10%;
+}
